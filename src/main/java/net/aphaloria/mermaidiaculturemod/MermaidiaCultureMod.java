@@ -52,6 +52,7 @@ public class MermaidiaCultureMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.NECKLACE);
+            event.accept(ModItems.PEARL);
         }
     }
 
