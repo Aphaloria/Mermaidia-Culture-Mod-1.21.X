@@ -1,6 +1,7 @@
 package net.aphaloria.mermaidiaculturemod.item;
 
 import net.aphaloria.mermaidiaculturemod.MermaidiaCultureMod;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,9 @@ public class ModItems {
             ()  -> new Item(new Item.Properties()));
 
 
+    public static final RegistryObject<Item> MERMAID_NECKLACE = ITEMS.register("necklace",
+            ()-> new ArmorItem(ModArmorMaterials.NECKLACE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(37))));
 
 
    public static void register(IEventBus eventBus) {

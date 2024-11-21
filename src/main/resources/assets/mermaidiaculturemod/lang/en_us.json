@@ -1,4 +1,6 @@
 {
   "item.mermaidiaculturemod.necklace": "Mermaid Necklace",
-  "item.mermaidiaculturemod.pearl": "Pearl"
+  "item.mermaidiaculturemod.pearl": "Pearl",
+
+  "creativetab.mermaidiaculturemod.mermaidia_items": "Mermaidia Culture Items"
 }

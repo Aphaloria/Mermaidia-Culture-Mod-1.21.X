@@ -1,6 +1,7 @@
 package net.aphaloria.mermaidiaculturemod;
 
 import com.mojang.logging.LogUtils;
+import net.aphaloria.mermaidiaculturemod.item.ModCreativeModeTabs;
 import net.aphaloria.mermaidiaculturemod.item.ModItems;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
@@ -32,6 +33,7 @@ public class MermaidiaCultureMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -52,6 +54,9 @@ public class MermaidiaCultureMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.NECKLACE);
+
+                }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.PEARL);
         }
     }
