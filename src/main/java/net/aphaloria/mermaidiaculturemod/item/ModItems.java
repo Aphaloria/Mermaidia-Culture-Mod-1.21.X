@@ -12,8 +12,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MermaidiaCultureMod.MOD_ID);
 
-    public static final RegistryObject<Item> NECKLACE = ITEMS.register("necklace",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PEARL = ITEMS.register("pearl",
             ()  -> new Item(new Item.Properties()));
 

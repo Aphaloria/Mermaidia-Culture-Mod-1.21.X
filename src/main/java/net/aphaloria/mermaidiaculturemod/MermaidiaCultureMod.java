@@ -1,6 +1,7 @@
 package net.aphaloria.mermaidiaculturemod;
 
 import com.mojang.logging.LogUtils;
+import net.aphaloria.mermaidiaculturemod.block.ModBlocks;
 import net.aphaloria.mermaidiaculturemod.item.ModCreativeModeTabs;
 import net.aphaloria.mermaidiaculturemod.item.ModItems;
 import net.minecraft.resources.ResourceKey;
@@ -39,6 +40,7 @@ public class MermaidiaCultureMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,12 +54,11 @@ public class MermaidiaCultureMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.NECKLACE);
-
-                }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.PEARL);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PEARL_BLOCK);
         }
     }
 
