@@ -1,7 +1,7 @@
 {
-  "varients": {
+  "variants": {
     "": {
-      "model":"mermaidiaculturemod:block/pearl_block"
+      "model": "mermaidiaculturemod:block/pearl_block"
     }
   }
 }

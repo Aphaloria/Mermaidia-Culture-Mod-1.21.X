@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mermaidiaculturemod:item/necklace"
+    "layer0": "mermaidiaculturemod:item/ocean_pearl_animated"
   }
 }

@@ -2,16 +2,19 @@ package net.aphaloria.mermaidiaculturemod.block;
 
 import net.aphaloria.mermaidiaculturemod.MermaidiaCultureMod;
 import net.aphaloria.mermaidiaculturemod.item.ModItems;
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.CoralFanBlock;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.awt.*;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -21,6 +24,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> PEARL_BLOCK = registerBlock("pearl_block",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+
+
+
+
+
+
+    // Registering the block
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

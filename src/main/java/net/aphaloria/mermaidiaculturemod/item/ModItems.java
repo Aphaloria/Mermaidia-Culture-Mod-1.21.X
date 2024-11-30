@@ -12,11 +12,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, MermaidiaCultureMod.MOD_ID);
 
-    public static final RegistryObject<Item> PEARL = ITEMS.register("pearl",
+    public static final RegistryObject<Item> OCEAN_PEARL = ITEMS.register("ocean_pearl_animated",
             ()  -> new Item(new Item.Properties()));
 
 
-    public static final RegistryObject<Item> MERMAID_NECKLACE = ITEMS.register("necklace",
+    public static final RegistryObject<Item> MERMAID_NECKLACE = ITEMS.register("mermaid_necklace_abyssal",
             ()-> new ArmorItem(ModArmorMaterials.NECKLACE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(37))));
 

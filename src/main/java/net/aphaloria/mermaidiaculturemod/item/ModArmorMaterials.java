@@ -18,11 +18,11 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-    public static final Holder<ArmorMaterial> NECKLACE_ARMOR_MATERIAL = register("necklace",Util.make(new EnumMap<>(ArmorItem.Type.class),
+    public static final Holder<ArmorMaterial> NECKLACE_ARMOR_MATERIAL = register("mermaid_necklace_abyssal",Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute -> {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 9);
                 attribute.put(ArmorItem.Type.BODY, 11);
-            }), 15, 3f,0.1f, ()-> ModItems.PEARL.get());
+            }), 15, 3f,0.1f, ()-> ModItems.OCEAN_PEARL.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,
