@@ -16,11 +16,17 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MermaidiaCultureMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> MERMAIDIA_ITEMS_TAB = CREATIVE_MODE_TABS.register("mermaidia_items_tab",
-            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.OCEAN_PEARL.get()))
+            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModItems.OCEAN_PEARL_ANIMATED.get()))
                     .title(Component.translatable("creativetab.mermaidiaculturemod.mermaidia_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.OCEAN_PEARL.get());
-                        output.accept(ModItems.MERMAID_NECKLACE.get());
+                        output.accept(ModItems.ABYSSAL_PEARL_ANIMATED.get());
+                        output.accept(ModItems.DEEP_SEA_PEARL_ANIMATED.get());
+                        output.accept(ModItems.OCEAN_PEARL_ANIMATED.get());
+                        output.accept(ModItems.ABYSSAL_MERMAID_NECKLACE.get());
+                        output.accept(ModItems.DEEP_SEA_MERMAID_NECKLACE.get());
+                        output.accept(ModItems.OCEAN_MERMAID_NECKLACE.get());
+
+
 
 
                     }).build());
@@ -34,8 +40,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PEARL_BLOCK.get());
 
                     }).build());
-
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

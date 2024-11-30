@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mermaidiaculturemod:item/deep_sea_pearl_animated"
+  }
+}

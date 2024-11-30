@@ -1,10 +1,17 @@
 {
-  "item.mermaidiaculturemod.mermaid_necklace_abyssal": "Abyssal Mermaid Necklace",
+  "item.mermaidiaculturemod.abyssal_mermaid_necklace": "Abyssal Mermaid Necklace",
+  "item.mermaidiaculturemod.abyssal_pearl_animated": "Abyssal Pearl",
   "item.mermaidiaculturemod.ocean_pearl_animated": "Ocean Pearl",
+  "item.mermaidiaculturemod.deep_sea_pearl_animated": "Deep Sea Pearl",
+  "item.mermaidiaculturemod.abyssal_mermaid_necklace": "Abyssal Mermaid Necklace",
+  "item.mermaidiaculturemod.deep_sea_mermaid_necklace": "Deep Sea Mermaid Necklace",
+  "item.mermaidiaculturemod.ocean_mermaid_necklace": "Ocean Mermaid Necklace",
+
+
 
   "creativetab.mermaidiaculturemod.mermaidia_items": "Mermaidia Culture Items",
   "creativetab.mermaidiaculturemod.mermaidia_blocks": "Mermaidia Culture Blocks",
 
-  "block.mermaidiaculturemod.pearl_block": "Block of Pearl",
+  "block.mermaidiaculturemod.pearl_block": "Block of Pearl"
 
 }

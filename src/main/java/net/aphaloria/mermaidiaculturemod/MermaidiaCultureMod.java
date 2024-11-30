@@ -55,7 +55,12 @@ public class MermaidiaCultureMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.OCEAN_PEARL);
+            event.accept(ModItems.OCEAN_PEARL_ANIMATED);
+            event.accept(ModItems.ABYSSAL_PEARL_ANIMATED);
+            event.accept(ModItems.DEEP_SEA_PEARL_ANIMATED);
+            event.accept(ModItems.ABYSSAL_MERMAID_NECKLACE);
+            event.accept(ModItems.DEEP_SEA_MERMAID_NECKLACE);
+            event.accept(ModItems.OCEAN_MERMAID_NECKLACE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.PEARL_BLOCK);

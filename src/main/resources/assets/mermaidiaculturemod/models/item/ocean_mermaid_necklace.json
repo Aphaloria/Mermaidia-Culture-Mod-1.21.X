@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mermaidiaculturemod:item/mermaid_necklace_1",
+    "layer1": "mermaidiaculturemod:item/mermaid_necklace_ocean_2"
+  }
+}
