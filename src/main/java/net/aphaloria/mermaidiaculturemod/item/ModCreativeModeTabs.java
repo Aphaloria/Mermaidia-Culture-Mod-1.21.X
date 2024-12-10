@@ -33,11 +33,13 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> MERMAIDIA_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mermaidia_blocks_tab",
-            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.PEARL_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.PINK_PRISMARINE_BRICKS.get()))
                     .withTabsBefore(MERMAIDIA_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.mermaidiaculturemod.mermaidia_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.PEARL_BLOCK.get());
+                        output.accept(ModBlocks.PINK_PRISMARINE.get());
+                        output.accept(ModBlocks.PINK_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.PINK_DARK_PRISMARINE.get());
 
                     }).build());
 
