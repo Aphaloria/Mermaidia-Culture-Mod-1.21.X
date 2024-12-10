@@ -63,7 +63,10 @@ public class MermaidiaCultureMod {
             event.accept(ModItems.OCEAN_MERMAID_NECKLACE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.PEARL_BLOCK);
+            event.accept(ModBlocks.PINK_DARK_PRISMARINE);
+            event.accept(ModBlocks.PINK_PRISMARINE);
+            event.accept(ModBlocks.PINK_PRISMARINE_BRICKS);
+
         }
     }
 

@@ -37,7 +37,7 @@ public class ModArmorMaterials implements ArmorMaterials{
         return LEATHER;
     }
 
-    private static Holder<ArmorMaterial> register(
+    public static Holder<ArmorMaterial> register(
             String pName,
             EnumMap<ArmorItem.Type, Integer> pDefense,
             int pEnchantmentValue,
@@ -50,7 +50,7 @@ public class ModArmorMaterials implements ArmorMaterials{
         return register(pName, pDefense, pEnchantmentValue, pEquipSound, pToughness, pKnockbackResistance, pRepairIngredient, list);
     }
 
-    private static Holder<ArmorMaterial> register(
+    public static Holder<ArmorMaterial> register(
             String pName,
             EnumMap<ArmorItem.Type, Integer> pDefense,
             int pEnchantmentValue,

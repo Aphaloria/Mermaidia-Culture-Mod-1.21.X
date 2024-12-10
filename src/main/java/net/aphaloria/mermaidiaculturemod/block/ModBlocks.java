@@ -21,9 +21,18 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, MermaidiaCultureMod.MOD_ID);
 
-    public static final RegistryObject<Block> PEARL_BLOCK = registerBlock("pearl_block",
+    public static final RegistryObject<Block> PINK_PRISMARINE = registerBlock("pink_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<Block> PINK_DARK_PRISMARINE = registerBlock("pink_dark_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<Block> PINK_PRISMARINE_BRICKS = registerBlock("pink_prismarine_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+
+
+
 
 
 
