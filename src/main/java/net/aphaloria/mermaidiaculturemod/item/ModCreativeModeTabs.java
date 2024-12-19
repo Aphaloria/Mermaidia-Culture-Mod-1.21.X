@@ -33,13 +33,33 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> MERMAIDIA_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mermaidia_blocks_tab",
-            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.PINK_PRISMARINE_BRICKS.get()))
+            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.KUNZITE_PRISMARINE.get()))
                     .withTabsBefore(MERMAIDIA_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.mermaidiaculturemod.mermaidia_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.PINK_PRISMARINE.get());
-                        output.accept(ModBlocks.PINK_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.PINK_DARK_PRISMARINE.get());
+                        output.accept(ModBlocks.KUNZITE_PRISMARINE.get());
+                        output.accept(ModBlocks.KUNZITE_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.KUNZITE_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.BRAIN_CORAL_BRICKS.get());
+                        output.accept(ModBlocks.MOSSY_BRAIN_CORAL.get());
+                        output.accept(ModBlocks.MOSSY_BRAIN_CORAL_BRICKS.get());
+
+                        output.accept(ModBlocks.BUBBLE_CORAL_BRICKS.get());
+                        output.accept(ModBlocks.MOSSY_BUBBLE_CORAL.get());
+                        output.accept(ModBlocks.MOSSY_BUBBLE_CORAL_BRICKS.get());
+
+                        output.accept(ModBlocks.FIRE_CORAL_BRICKS.get());
+                        output.accept(ModBlocks.MOSSY_FIRE_CORAL.get());
+                        output.accept(ModBlocks.MOSSY_FIRE_CORAL_BRICKS.get());
+
+                        output.accept(ModBlocks.HORN_CORAL_BRICKS.get());
+                        output.accept(ModBlocks.MOSSY_HORN_CORAL.get());
+                        output.accept(ModBlocks.MOSSY_HORN_CORAL_BRICKS.get());
+
+                        output.accept(ModBlocks.TUBE_CORAL_BRICKS.get());
+                        output.accept(ModBlocks.MOSSY_TUBE_CORAL.get());
+                        output.accept(ModBlocks.MOSSY_TUBE_CORAL_BRICKS.get());
 
                     }).build());
 

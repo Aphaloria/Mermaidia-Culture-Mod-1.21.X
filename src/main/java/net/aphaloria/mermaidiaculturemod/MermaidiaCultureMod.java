@@ -63,10 +63,29 @@ public class MermaidiaCultureMod {
             event.accept(ModItems.OCEAN_MERMAID_NECKLACE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.PINK_DARK_PRISMARINE);
-            event.accept(ModBlocks.PINK_PRISMARINE);
-            event.accept(ModBlocks.PINK_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.KUNZITE_PRISMARINE);
+            event.accept(ModBlocks.KUNZITE_DARK_PRISMARINE);
+            event.accept(ModBlocks.KUNZITE_PRISMARINE_BRICKS);
 
+            event.accept(ModBlocks.BRAIN_CORAL_BRICKS);
+            event.accept(ModBlocks.MOSSY_BRAIN_CORAL);
+            event.accept(ModBlocks.MOSSY_BRAIN_CORAL_BRICKS);
+
+            event.accept(ModBlocks.BUBBLE_CORAL_BRICKS);
+            event.accept(ModBlocks.MOSSY_BUBBLE_CORAL);
+            event.accept(ModBlocks.MOSSY_BUBBLE_CORAL_BRICKS);
+
+            event.accept(ModBlocks.FIRE_CORAL_BRICKS);
+            event.accept(ModBlocks.MOSSY_FIRE_CORAL);
+            event.accept(ModBlocks.MOSSY_FIRE_CORAL_BRICKS);
+
+            event.accept(ModBlocks.HORN_CORAL_BRICKS);
+            event.accept(ModBlocks.MOSSY_HORN_CORAL);
+            event.accept(ModBlocks.MOSSY_HORN_CORAL_BRICKS);
+
+            event.accept(ModBlocks.TUBE_CORAL_BRICKS);
+            event.accept(ModBlocks.MOSSY_TUBE_CORAL);
+            event.accept(ModBlocks.MOSSY_TUBE_CORAL_BRICKS);
         }
     }
 

@@ -11,8 +11,31 @@
   "creativetab.mermaidiaculturemod.mermaidia_items": "Mermaidia Culture Items",
   "creativetab.mermaidiaculturemod.mermaidia_blocks": "Mermaidia Culture Blocks",
 
-  "block.mermaidiaculturemod.pink_dark_prismarine": "Pink Dark Prismarine",
-  "block.mermaidiaculturemod.pink_prismarine": "Pink Prismarine",
-  "block.mermaidiaculturemod.pink_prismarine_bricks": "Pink Prismarine Bricks"
+  "block.mermaidiaculturemod.kunzite_dark_prismarine": "Kunzite Dark Prismarine",
+  "block.mermaidiaculturemod.kunzite_prismarine": "Kunzite Prismarine",
+  "block.mermaidiaculturemod.kunzite_prismarine_bricks": "Kunzite Prismarine Bricks",
+
+  "block.mermaidiaculturemod.brain_coral_bricks": "Brain Coral Bricks",
+  "block.mermaidiaculturemod.mossy_brain_coral": "Mossy Brain Coral",
+  "block.mermaidiaculturemod.mossy_brain_coral_bricks": "Mossy Brain Coral Bricks",
+
+  "block.mermaidiaculturemod.bubble_coral_bricks": "Bubble Coral Bricks",
+  "block.mermaidiaculturemod.mossy_bubble_coral": "Mossy Bubble Coral",
+  "block.mermaidiaculturemod.mossy_bubble_coral_bricks": "Mossy Bubble Coral Bricks",
+
+  "block.mermaidiaculturemod.fire_coral_bricks": "Fire Coral Bricks",
+  "block.mermaidiaculturemod.mossy_fire_coral": "Mossy Fire Coral",
+  "block.mermaidiaculturemod.mossy_fire_coral_bricks": "Mossy Fire Coral Bricks",
+
+  "block.mermaidiaculturemod.horn_coral_bricks": "Horn Coral Bricks",
+  "block.mermaidiaculturemod.mossy_horn_coral": "Mossy Horn Coral",
+  "block.mermaidiaculturemod.mossy_horn_coral_bricks": "Mossy Horn Coral Bricks",
+
+  "block.mermaidiaculturemod.tube_coral_bricks": "Tube Coral Bricks",
+  "block.mermaidiaculturemod.mossy_tube_coral": "Mossy Tube Coral",
+  "block.mermaidiaculturemod.mossy_tube_coral_bricks": "Mossy Tube Coral Bricks"
+
+
+
 
 }
