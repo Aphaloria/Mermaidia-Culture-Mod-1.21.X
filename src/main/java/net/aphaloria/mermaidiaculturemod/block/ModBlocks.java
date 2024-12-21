@@ -2,19 +2,15 @@ package net.aphaloria.mermaidiaculturemod.block;
 
 import net.aphaloria.mermaidiaculturemod.MermaidiaCultureMod;
 import net.aphaloria.mermaidiaculturemod.item.ModItems;
-import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.CoralFanBlock;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.awt.*;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -23,15 +19,66 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> KUNZITE_PRISMARINE = registerBlock("kunzite_prismarine",
+    public static final RegistryObject<Block> RUBY_PRISMARINE = registerBlock("ruby_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> KUNZITE_DARK_PRISMARINE = registerBlock("kunzite_dark_prismarine",
+    public static final RegistryObject<Block> RUBY_DARK_PRISMARINE = registerBlock("ruby_dark_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final RegistryObject<Block> KUNZITE_PRISMARINE_BRICKS = registerBlock("kunzite_prismarine_bricks",
+    public static final RegistryObject<Block> RUBY_PRISMARINE_BRICKS = registerBlock("ruby_prismarine_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> AMBER_PRISMARINE = registerBlock("amber_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> AMBER_DARK_PRISMARINE = registerBlock("amber_dark_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> AMBER_PRISMARINE_BRICKS = registerBlock("amber_prismarine_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> CITRINE_PRISMARINE = registerBlock("citrine_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> CITRINE_DARK_PRISMARINE = registerBlock("citrine_dark_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> CITRINE_PRISMARINE_BRICKS = registerBlock("citrine_prismarine_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> PERIDOT_PRISMARINE = registerBlock("peridot_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> PERIDOT_DARK_PRISMARINE = registerBlock("peridot_dark_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> PERIDOT_PRISMARINE_BRICKS = registerBlock("peridot_prismarine_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> AMETHYST_PRISMARINE = registerBlock("amethyst_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> AMETHYST_DARK_PRISMARINE = registerBlock("amethyst_dark_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> AMETHYST_PRISMARINE_BRICKS = registerBlock("amethyst_prismarine_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> ROSE_QUARTZ_PRISMARINE = registerBlock("rose_quartz_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ROSE_QUARTZ_DARK_PRISMARINE = registerBlock("rose_quartz_dark_prismarine",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ROSE_QUARTZ_PRISMARINE_BRICKS = registerBlock("rose_quartz_prismarine_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
     public static final RegistryObject<Block> BRAIN_CORAL_BRICKS = registerBlock("brain_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()

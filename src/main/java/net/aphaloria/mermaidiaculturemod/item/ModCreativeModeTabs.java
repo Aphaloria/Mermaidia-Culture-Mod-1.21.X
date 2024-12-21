@@ -4,7 +4,6 @@ import net.aphaloria.mermaidiaculturemod.MermaidiaCultureMod;
 import net.aphaloria.mermaidiaculturemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.entity.Display;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,13 +32,33 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> MERMAIDIA_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mermaidia_blocks_tab",
-            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.KUNZITE_PRISMARINE.get()))
+            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.ROSE_QUARTZ_PRISMARINE.get()))
                     .withTabsBefore(MERMAIDIA_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.mermaidiaculturemod.mermaidia_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.KUNZITE_PRISMARINE.get());
-                        output.accept(ModBlocks.KUNZITE_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.KUNZITE_DARK_PRISMARINE.get());
+                        output.accept(ModBlocks.RUBY_PRISMARINE.get());
+                        output.accept(ModBlocks.RUBY_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.RUBY_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.AMBER_PRISMARINE.get());
+                        output.accept(ModBlocks.AMBER_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.AMBER_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.CITRINE_PRISMARINE.get());
+                        output.accept(ModBlocks.CITRINE_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.CITRINE_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.PERIDOT_PRISMARINE.get());
+                        output.accept(ModBlocks.PERIDOT_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.PERIDOT_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.AMETHYST_PRISMARINE.get());
+                        output.accept(ModBlocks.AMETHYST_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.AMETHYST_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE.get());
+                        output.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.ROSE_QUARTZ_DARK_PRISMARINE.get());
 
                         output.accept(ModBlocks.BRAIN_CORAL_BRICKS.get());
                         output.accept(ModBlocks.MOSSY_BRAIN_CORAL.get());

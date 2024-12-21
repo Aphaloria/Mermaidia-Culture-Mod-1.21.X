@@ -4,8 +4,6 @@ import com.mojang.logging.LogUtils;
 import net.aphaloria.mermaidiaculturemod.block.ModBlocks;
 import net.aphaloria.mermaidiaculturemod.item.ModCreativeModeTabs;
 import net.aphaloria.mermaidiaculturemod.item.ModItems;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -63,9 +61,29 @@ public class MermaidiaCultureMod {
             event.accept(ModItems.OCEAN_MERMAID_NECKLACE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.KUNZITE_PRISMARINE);
-            event.accept(ModBlocks.KUNZITE_DARK_PRISMARINE);
-            event.accept(ModBlocks.KUNZITE_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.RUBY_PRISMARINE);
+            event.accept(ModBlocks.RUBY_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.RUBY_DARK_PRISMARINE);
+
+            event.accept(ModBlocks.AMBER_PRISMARINE);
+            event.accept(ModBlocks.AMBER_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.AMBER_DARK_PRISMARINE);
+
+            event.accept(ModBlocks.CITRINE_PRISMARINE);
+            event.accept(ModBlocks.CITRINE_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.CITRINE_DARK_PRISMARINE);
+
+            event.accept(ModBlocks.PERIDOT_PRISMARINE);
+            event.accept(ModBlocks.PERIDOT_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.PERIDOT_DARK_PRISMARINE);
+
+            event.accept(ModBlocks.AMETHYST_PRISMARINE);
+            event.accept(ModBlocks.AMETHYST_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.AMETHYST_DARK_PRISMARINE);
+
+            event.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE);
+            event.accept(ModBlocks.ROSE_QUARTZ_DARK_PRISMARINE);
+            event.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE_BRICKS);
 
             event.accept(ModBlocks.BRAIN_CORAL_BRICKS);
             event.accept(ModBlocks.MOSSY_BRAIN_CORAL);

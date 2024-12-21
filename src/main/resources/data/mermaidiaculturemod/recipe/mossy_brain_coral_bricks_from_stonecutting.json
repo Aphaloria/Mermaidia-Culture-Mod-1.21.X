@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mermaidiaculturemod:mossy_brain_coral"
+  },
+  "result": {
+    "count": 1,
+    "id": "mermaidiaculturemod:mossy_brain_coral_bricks"
+  }
+}

@@ -11,9 +11,29 @@
   "creativetab.mermaidiaculturemod.mermaidia_items": "Mermaidia Culture Items",
   "creativetab.mermaidiaculturemod.mermaidia_blocks": "Mermaidia Culture Blocks",
 
-  "block.mermaidiaculturemod.kunzite_dark_prismarine": "Kunzite Dark Prismarine",
-  "block.mermaidiaculturemod.kunzite_prismarine": "Kunzite Prismarine",
-  "block.mermaidiaculturemod.kunzite_prismarine_bricks": "Kunzite Prismarine Bricks",
+  "block.mermaidiaculturemod.ruby_dark_prismarine": "Ruby Dark Prismarine",
+  "block.mermaidiaculturemod.ruby_prismarine": "Ruby Prismarine",
+  "block.mermaidiaculturemod.ruby_prismarine_bricks": "Ruby Prismarine Bricks",
+
+  "block.mermaidiaculturemod.amber_dark_prismarine": "Amber Dark Prismarine",
+  "block.mermaidiaculturemod.amber_prismarine": "Amber Prismarine",
+  "block.mermaidiaculturemod.amber_prismarine_bricks": "Amber Prismarine Bricks",
+
+  "block.mermaidiaculturemod.citrine_dark_prismarine": "Citrine Dark Prismarine",
+  "block.mermaidiaculturemod.citrine_prismarine": "Citrine Prismarine",
+  "block.mermaidiaculturemod.citrine_prismarine_bricks": "Citrine Prismarine Bricks",
+
+  "block.mermaidiaculturemod.peridot_dark_prismarine": "Peridot Dark Prismarine",
+  "block.mermaidiaculturemod.peridot_prismarine": "Peridot Prismarine",
+  "block.mermaidiaculturemod.peridot_prismarine_bricks": "Peridot Prismarine Bricks",
+
+  "block.mermaidiaculturemod.amethyst_dark_prismarine": "Amethyst Dark Prismarine",
+  "block.mermaidiaculturemod.amethyst_prismarine": "Amethyst Prismarine",
+  "block.mermaidiaculturemod.amethyst_prismarine_bricks": "Amethyst Prismarine Bricks",
+
+  "block.mermaidiaculturemod.rose_quartz_dark_prismarine": "Rose Quartz Dark Prismarine",
+  "block.mermaidiaculturemod.rose_quartz_prismarine": "Rose Quartz Prismarine",
+  "block.mermaidiaculturemod.rose_quartz_prismarine_bricks": "Rose Quartz Prismarine Bricks",
 
   "block.mermaidiaculturemod.brain_coral_bricks": "Brain Coral Bricks",
   "block.mermaidiaculturemod.mossy_brain_coral": "Mossy Brain Coral",

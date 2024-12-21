@@ -1,0 +1,1 @@
+{  "parent": "minecraft:block/cube_all",  "textures": {    "all": "mermaidiaculturemod:block/rose_quartz_prismarine_bricks"  }}
