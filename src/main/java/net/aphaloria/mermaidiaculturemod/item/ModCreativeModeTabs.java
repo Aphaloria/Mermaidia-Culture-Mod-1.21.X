@@ -24,8 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ABYSSAL_MERMAID_NECKLACE.get());
                         output.accept(ModItems.DEEP_SEA_MERMAID_NECKLACE.get());
                         output.accept(ModItems.OCEAN_MERMAID_NECKLACE.get());
-
-
+                        output.accept(ModItems.PEARL_CLAM.get());
 
 
                     }).build());
