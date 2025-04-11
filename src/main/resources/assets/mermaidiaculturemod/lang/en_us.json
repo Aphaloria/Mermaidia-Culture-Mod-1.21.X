@@ -7,26 +7,34 @@
   "item.mermaidiaculturemod.deep_sea_mermaid_necklace": "Deep Sea Mermaid Necklace",
   "item.mermaidiaculturemod.ocean_mermaid_necklace": "Ocean Mermaid Necklace",
   "item.mermaidiaculturemod.pearl_clam": "Pearl Clam",
+  "item.mermaidiaculturemod.bananas": "Bananas",
+
 
 
   "creativetab.mermaidiaculturemod.mermaidia_items": "Mermaidia Culture Items",
   "creativetab.mermaidiaculturemod.mermaidia_blocks": "Mermaidia Culture Blocks",
 
-  "block.mermaidiaculturemod.ruby_dark_prismarine": "Ruby Dark Prismarine",
-  "block.mermaidiaculturemod.ruby_prismarine": "Ruby Prismarine",
-  "block.mermaidiaculturemod.ruby_prismarine_bricks": "Ruby Prismarine Bricks",
+  "block.mermaidiaculturemod.magic_block": "Magic Block",
 
-  "block.mermaidiaculturemod.amber_dark_prismarine": "Amber Dark Prismarine",
-  "block.mermaidiaculturemod.amber_prismarine": "Amber Prismarine",
-  "block.mermaidiaculturemod.amber_prismarine_bricks": "Amber Prismarine Bricks",
+  "block.mermaidiaculturemod.red_dark_prismarine": "Red Dark Prismarine",
+  "block.mermaidiaculturemod.red_prismarine": "Red Prismarine",
+  "block.mermaidiaculturemod.red_prismarine_bricks": "Red Prismarine Bricks",
 
-  "block.mermaidiaculturemod.citrine_dark_prismarine": "Citrine Dark Prismarine",
-  "block.mermaidiaculturemod.citrine_prismarine": "Citrine Prismarine",
-  "block.mermaidiaculturemod.citrine_prismarine_bricks": "Citrine Prismarine Bricks",
+  "block.mermaidiaculturemod.red_prismarine_stairs": "Red Prismarine Stairs",
+  "block.mermaidiaculturemod.red_prismarine_slab": "Red Prismarine Slab",
 
-  "block.mermaidiaculturemod.peridot_dark_prismarine": "Peridot Dark Prismarine",
-  "block.mermaidiaculturemod.peridot_prismarine": "Peridot Prismarine",
-  "block.mermaidiaculturemod.peridot_prismarine_bricks": "Peridot Prismarine Bricks",
+  "block.mermaidiaculturemod.orange_dark_prismarine": "Orange Dark Prismarine",
+  "block.mermaidiaculturemod.orange_prismarine": "Orange Prismarine",
+  "block.mermaidiaculturemod.orange_prismarine_bricks": "Orange Prismarine Bricks",
+
+
+  "block.mermaidiaculturemod.yellow_dark_prismarine": "Yellow Dark Prismarine",
+  "block.mermaidiaculturemod.yellow_prismarine": "Yellow Prismarine",
+  "block.mermaidiaculturemod.yellow_prismarine_bricks": "Yellow Prismarine Bricks",
+
+  "block.mermaidiaculturemod.green_dark_prismarine": "Green Dark Prismarine",
+  "block.mermaidiaculturemod.green_prismarine": "Green Prismarine",
+  "block.mermaidiaculturemod.green_prismarine_bricks": "Green Prismarine Bricks",
 
   "block.mermaidiaculturemod.amethyst_dark_prismarine": "Amethyst Dark Prismarine",
   "block.mermaidiaculturemod.amethyst_prismarine": "Amethyst Prismarine",
@@ -39,6 +47,8 @@
   "block.mermaidiaculturemod.brain_coral_bricks": "Brain Coral Bricks",
   "block.mermaidiaculturemod.mossy_brain_coral": "Mossy Brain Coral",
   "block.mermaidiaculturemod.mossy_brain_coral_bricks": "Mossy Brain Coral Bricks",
+  "block.mermaidiaculturemod.brain_coral_pillar": "Brain Coral Pillar",
+
 
   "block.mermaidiaculturemod.bubble_coral_bricks": "Bubble Coral Bricks",
   "block.mermaidiaculturemod.mossy_bubble_coral": "Mossy Bubble Coral",

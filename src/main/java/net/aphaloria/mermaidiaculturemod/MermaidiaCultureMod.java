@@ -62,33 +62,34 @@ public class MermaidiaCultureMod {
             event.accept(ModItems.PEARL_CLAM);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.RUBY_PRISMARINE);
-            event.accept(ModBlocks.RUBY_PRISMARINE_BRICKS);
-            event.accept(ModBlocks.RUBY_DARK_PRISMARINE);
+            event.accept(ModBlocks.RED_PRISMARINE);
+            event.accept(ModBlocks.RED_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.RED_DARK_PRISMARINE);
 
-            event.accept(ModBlocks.AMBER_PRISMARINE);
-            event.accept(ModBlocks.AMBER_PRISMARINE_BRICKS);
-            event.accept(ModBlocks.AMBER_DARK_PRISMARINE);
+            event.accept(ModBlocks.ORANGE_PRISMARINE);
+            event.accept(ModBlocks.ORANGE_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.ORANGE_DARK_PRISMARINE);
 
-            event.accept(ModBlocks.CITRINE_PRISMARINE);
-            event.accept(ModBlocks.CITRINE_PRISMARINE_BRICKS);
-            event.accept(ModBlocks.CITRINE_DARK_PRISMARINE);
+            event.accept(ModBlocks.YELLOW_PRISMARINE);
+            event.accept(ModBlocks.YELLOW_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.YELLOW_DARK_PRISMARINE);
 
-            event.accept(ModBlocks.PERIDOT_PRISMARINE);
-            event.accept(ModBlocks.PERIDOT_PRISMARINE_BRICKS);
-            event.accept(ModBlocks.PERIDOT_DARK_PRISMARINE);
+            event.accept(ModBlocks.GREEN_PRISMARINE);
+            event.accept(ModBlocks.GREEN_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.GREEN_DARK_PRISMARINE);
 
-            event.accept(ModBlocks.AMETHYST_PRISMARINE);
-            event.accept(ModBlocks.AMETHYST_PRISMARINE_BRICKS);
-            event.accept(ModBlocks.AMETHYST_DARK_PRISMARINE);
+            event.accept(ModBlocks.PURPLE_PRISMARINE);
+            event.accept(ModBlocks.PURPLE_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.PURPLE_DARK_PRISMARINE);
 
-            event.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE);
-            event.accept(ModBlocks.ROSE_QUARTZ_DARK_PRISMARINE);
-            event.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE_BRICKS);
+            event.accept(ModBlocks.PINK_PRISMARINE);
+            event.accept(ModBlocks.PINK_DARK_PRISMARINE);
+            event.accept(ModBlocks.PINK_PRISMARINE_BRICKS);
 
             event.accept(ModBlocks.BRAIN_CORAL_BRICKS);
             event.accept(ModBlocks.MOSSY_BRAIN_CORAL);
             event.accept(ModBlocks.MOSSY_BRAIN_CORAL_BRICKS);
+            event.accept(ModBlocks.BRAIN_CORAL_PILLAR);
 
             event.accept(ModBlocks.BUBBLE_CORAL_BRICKS);
             event.accept(ModBlocks.MOSSY_BUBBLE_CORAL);

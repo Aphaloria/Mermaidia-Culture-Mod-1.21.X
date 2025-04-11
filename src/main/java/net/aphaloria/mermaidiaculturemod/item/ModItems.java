@@ -23,6 +23,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> PEARL_CLAM = ITEMS.register("pearl_clam",
             ()  -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BANANAS = ITEMS.register("bananas",
+            ()  -> new Item(new Item.Properties().food(ModFoodProperties.BANANA)));
 
 
 

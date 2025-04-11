@@ -25,43 +25,52 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DEEP_SEA_MERMAID_NECKLACE.get());
                         output.accept(ModItems.OCEAN_MERMAID_NECKLACE.get());
                         output.accept(ModItems.PEARL_CLAM.get());
+                        output.accept(ModItems.BANANAS.get());
 
 
                     }).build());
 
 
     public static final RegistryObject<CreativeModeTab> MERMAIDIA_BLOCKS_TAB = CREATIVE_MODE_TABS.register("mermaidia_blocks_tab",
-            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.ROSE_QUARTZ_PRISMARINE.get()))
+            () -> CreativeModeTab.builder().icon(()->new ItemStack(ModBlocks.PINK_PRISMARINE.get()))
                     .withTabsBefore(MERMAIDIA_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.mermaidiaculturemod.mermaidia_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.RUBY_PRISMARINE.get());
-                        output.accept(ModBlocks.RUBY_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.RUBY_DARK_PRISMARINE.get());
+                        output.accept(ModBlocks.RED_PRISMARINE.get());
+                        output.accept(ModBlocks.RED_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.RED_DARK_PRISMARINE.get());
 
-                        output.accept(ModBlocks.AMBER_PRISMARINE.get());
-                        output.accept(ModBlocks.AMBER_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.AMBER_DARK_PRISMARINE.get());
+                        output.accept(ModBlocks.RED_PRISMARINE_STAIRS.get());
+                        output.accept(ModBlocks.RED_PRISMARINE_SLAB.get());
 
-                        output.accept(ModBlocks.CITRINE_PRISMARINE.get());
-                        output.accept(ModBlocks.CITRINE_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.CITRINE_DARK_PRISMARINE.get());
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
 
-                        output.accept(ModBlocks.PERIDOT_PRISMARINE.get());
-                        output.accept(ModBlocks.PERIDOT_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.PERIDOT_DARK_PRISMARINE.get());
 
-                        output.accept(ModBlocks.AMETHYST_PRISMARINE.get());
-                        output.accept(ModBlocks.AMETHYST_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.AMETHYST_DARK_PRISMARINE.get());
 
-                        output.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE.get());
-                        output.accept(ModBlocks.ROSE_QUARTZ_PRISMARINE_BRICKS.get());
-                        output.accept(ModBlocks.ROSE_QUARTZ_DARK_PRISMARINE.get());
+                        output.accept(ModBlocks.ORANGE_PRISMARINE.get());
+                        output.accept(ModBlocks.ORANGE_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.ORANGE_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.YELLOW_PRISMARINE.get());
+                        output.accept(ModBlocks.YELLOW_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.YELLOW_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.GREEN_PRISMARINE.get());
+                        output.accept(ModBlocks.GREEN_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.GREEN_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.PURPLE_PRISMARINE.get());
+                        output.accept(ModBlocks.PURPLE_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.PURPLE_DARK_PRISMARINE.get());
+
+                        output.accept(ModBlocks.PINK_PRISMARINE.get());
+                        output.accept(ModBlocks.PINK_PRISMARINE_BRICKS.get());
+                        output.accept(ModBlocks.PINK_DARK_PRISMARINE.get());
 
                         output.accept(ModBlocks.BRAIN_CORAL_BRICKS.get());
                         output.accept(ModBlocks.MOSSY_BRAIN_CORAL.get());
                         output.accept(ModBlocks.MOSSY_BRAIN_CORAL_BRICKS.get());
+                        output.accept(ModBlocks.BRAIN_CORAL_PILLAR.get());
 
                         output.accept(ModBlocks.BUBBLE_CORAL_BRICKS.get());
                         output.accept(ModBlocks.MOSSY_BUBBLE_CORAL.get());
