@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mermaidiaculturemod:block/horn_coral_pillar_top",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mermaidiaculturemod:block/horn_coral_pillar"
+    },
+    "axis=z": {
+      "model": "mermaidiaculturemod:block/horn_coral_pillar_top",
+      "x": 90
+    }
+  }
+}

@@ -20,35 +20,35 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
             ()-> new MagicBlock(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> RED_PRISMARINE = registerBlock("red_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> RED_DARK_PRISMARINE = registerBlock("red_dark_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> RED_PRISMARINE_BRICKS = registerBlock("red_prismarine_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> RED_PRISMARINE_STAIRS = registerBlock("red_prismarine_stairs",
             ()-> new StairBlock(ModBlocks.RED_PRISMARINE.get().defaultBlockState(),
             BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> RED_PRISMARINE_SLAB = registerBlock("red_prismarine_slab",
             ()-> new SlabBlock(BlockBehaviour.Properties.of()
-                            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> ORANGE_PRISMARINE = registerBlock("orange_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> ORANGE_DARK_PRISMARINE = registerBlock("orange_dark_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> ORANGE_PRISMARINE_BRICKS = registerBlock("orange_prismarine_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> YELLOW_PRISMARINE = registerBlock("yellow_prismarine",
             ()-> new Block(BlockBehaviour.Properties.of()
@@ -106,6 +106,7 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
 
+
     public static final RegistryObject<Block> BUBBLE_CORAL_BRICKS = registerBlock("bubble_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
@@ -113,6 +114,9 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
     public static final RegistryObject<Block> MOSSY_BUBBLE_CORAL_BRICKS = registerBlock("mossy_bubble_coral_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<Block> BUBBLE_CORAL_PILLAR = registerBlock("bubble_coral_pillar",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
 
@@ -125,6 +129,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_FIRE_CORAL_BRICKS = registerBlock("mossy_fire_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<Block> FIRE_CORAL_PILLAR = registerBlock("fire_coral_pillar",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
 
     public static final RegistryObject<Block> HORN_CORAL_BRICKS = registerBlock("horn_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
@@ -135,6 +142,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_HORN_CORAL_BRICKS = registerBlock("mossy_horn_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<Block> HORN_CORAL_PILLAR = registerBlock("horn_coral_pillar",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
 
     public static final RegistryObject<Block> TUBE_CORAL_BRICKS = registerBlock("tube_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
@@ -143,6 +153,9 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
     public static final RegistryObject<Block> MOSSY_TUBE_CORAL_BRICKS = registerBlock("mossy_tube_coral_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<Block> TUBE_CORAL_PILLAR = registerBlock("tube_coral_pillar",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
 

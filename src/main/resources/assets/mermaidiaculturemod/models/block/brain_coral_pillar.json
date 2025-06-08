@@ -1,1 +1,1 @@
-{  "parent": "minecraft:block/cube_all",  "textures": {    "all": "mermaidiaculturemod:block/brain_coral_pillar"  }}
+{  "parent": "minecraft:block/cube_column",  "textures": {    "end": "mermaidiaculturemod:block/brain_coral_pillar_top",    "side": "mermaidiaculturemod:block/brain_coral_pillar"  }}

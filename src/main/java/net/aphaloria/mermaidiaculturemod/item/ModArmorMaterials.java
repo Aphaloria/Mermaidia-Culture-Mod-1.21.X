@@ -19,33 +19,6 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-    public static final Holder<ArmorMaterial> ABYSSAL_MERMAID_NECKLACE = register("abyssalmermaidnecklace", Util.make(new EnumMap<>(ArmorItem.Type.class),
-            attribute -> {
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
-                attribute.put(ArmorItem.Type.HELMET, 5);
-                attribute.put(ArmorItem.Type.BODY, 11);
-            }), 15, 4f, 0.1f, () -> ModItems.ABYSSAL_MERMAID_NECKLACE.get());
-
-    public static final Holder<ArmorMaterial> DEEP_SEA_MERMAID_NECKLACE = register("deepseamermaidnecklace", Util.make(new EnumMap<>(ArmorItem.Type.class),
-            attribute -> {
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
-                attribute.put(ArmorItem.Type.HELMET, 5);
-                attribute.put(ArmorItem.Type.BODY, 11);
-            }), 15, 4f, 0.1f, () -> ModItems.DEEP_SEA_MERMAID_NECKLACE.get());
-
-    public static final Holder<ArmorMaterial> OCEAN_MERMAID_NECKLACE = register("oceanmermaidnecklace", Util.make(new EnumMap<>(ArmorItem.Type.class),
-            attribute -> {
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
-                attribute.put(ArmorItem.Type.HELMET, 5);
-                attribute.put(ArmorItem.Type.BODY, 11);
-            }), 15, 4f, 0.1f, () -> ModItems.OCEAN_MERMAID_NECKLACE.get());
-
 
 
 

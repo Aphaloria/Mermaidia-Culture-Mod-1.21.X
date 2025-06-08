@@ -21,9 +21,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ABYSSAL_PEARL_ANIMATED.get());
                         output.accept(ModItems.DEEP_SEA_PEARL_ANIMATED.get());
                         output.accept(ModItems.OCEAN_PEARL_ANIMATED.get());
-                        output.accept(ModItems.ABYSSAL_MERMAID_NECKLACE.get());
-                        output.accept(ModItems.DEEP_SEA_MERMAID_NECKLACE.get());
-                        output.accept(ModItems.OCEAN_MERMAID_NECKLACE.get());
                         output.accept(ModItems.PEARL_CLAM.get());
                         output.accept(ModItems.BANANAS.get());
 
