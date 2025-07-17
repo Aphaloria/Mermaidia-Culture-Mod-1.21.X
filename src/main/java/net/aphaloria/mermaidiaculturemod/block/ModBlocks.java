@@ -102,9 +102,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOSSY_BRAIN_CORAL_BRICKS = registerBlock("mossy_brain_coral_bricks",
             ()-> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
-    public static final RegistryObject<Block> BRAIN_CORAL_PILLAR = registerBlock("brain_coral_pillar",
-            ()-> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CORAL_BLOCK)));
+    public static final RegistryObject<RotatedPillarBlock> BRAIN_CORAL_PILLAR = registerBlock("brain_coral_pillar"),
+            ()-> new Block(BlockBehaviour.Properties.(Blocks.QUARTZ_PILLAR)));
 
 
     public static final RegistryObject<Block> BUBBLE_CORAL_BRICKS = registerBlock("bubble_coral_bricks",
